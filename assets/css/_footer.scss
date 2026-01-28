@@ -1,0 +1,27 @@
+.links {
+    background-color: $black_color;
+}
+
+.footer__container {
+    height: 60px;
+}
+
+.footer__links {
+    display: flex;
+    width: 186px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+
+.footer__trademark {
+    text-align: center;
+    background-color: $dark_green_color;
+}
+
+.trademark {
+    font-family: Open Sans;
+    font-size: 12px;
+    color: $white_green_color;
+}

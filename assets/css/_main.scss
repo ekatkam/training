@@ -1,0 +1,379 @@
+.title {
+    display: flex;
+    background-image: url(/assets/image/bg_pic.jpg);
+    background-size: cover;
+    min-height: 550px;
+    align-items: center;
+
+
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    color: $white_color;
+}
+
+.header__title {
+    font-family: Cormorant;
+    font-size: 60px;
+    max-width: 688px;
+    max-height: 125px;
+    margin-bottom: 22px;
+}
+
+.header__description { 
+    font-size: 16px;
+    max-width: 635px;
+    max-height: 72px;
+    margin-bottom: 22px;
+    line-height: 150%;
+}
+
+.explore {
+    text-decoration: none;
+    color: $light_green_color;
+    font-weight: 700;
+}
+
+.explore:hover {
+    color: $green_hover;
+}
+
+.explore:active {
+    color: $green_active;
+}
+
+
+.main__artifacts {
+    max-height: 1303px;
+    background-color: $dark_green_color;
+}
+
+.artifacts__items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px;
+    font-size: 16px;
+}
+
+.artifacts__item {
+    position: relative;
+    max-width: 255px;
+    width: 100%;
+    height: 493px;
+    border: 1px solid $black_color;
+}
+
+.artifacts__picture {
+    position: relative;
+    background-color: $black_color;
+    height: 180px;
+}
+
+.artifacts__img {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.artifacts__icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.artifacts__title {
+    color: $white_color;
+    font-family: Cormorant;
+    padding-left: 16px;
+    padding-top: 16px;
+    margin-bottom: 8px;
+}
+
+.artifacts__description {
+    color: $white_green_color;
+    font-family: Open Sans, sans-serif;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 150%;
+}
+
+.artifacts__button {
+    position: absolute;
+    width: 145px;
+    height: 45px;
+    border: 1px solid $light_green_color;
+    background-color: $dark_green_color;
+    font-family: Open Sans, sans-serif;
+    color: $light_green_color;
+    bottom: 24px;
+    left: 16px;
+    cursor: pointer;
+}
+
+.artifacts__button:hover {
+    border: 1px solid $light_green_color;
+    background-color: $light_green_color;
+    color: $black_color;
+}
+
+.artifacts__button:active {
+    border: 1px solid $green_focus;
+    background-color: $green_focus;
+    color: $black_color;
+}
+
+.embla__arrow {
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+}
+
+.artifacts__nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: Cormorant;
+    font-size: 24px;
+    padding-top: 30px;
+    max-width: 161px;
+    margin: 0 auto;
+}
+
+.new-artifacts__title {
+    font-family: Cormorant BoldItalic;
+    font-size: 48px;
+    color: $white_color;
+}
+
+.new-artifacts__container {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.new-artifacts__picture {
+    width: 840px;
+    height: 493px;
+    background-color: $black_color;
+    margin-right: 15px;
+}
+
+.new-artifacts__description {
+    position: relative;
+    width: 255px;
+    height: 493px;
+    background-color: $light_green_color;
+    padding-left: 16px;
+    color: $black_color;
+}
+
+.new-artifacts-description-title {
+    font-family: Cormorant;
+    font-size: 24px;
+    margin-bottom: 6px;
+    padding-top: 18px;
+}
+
+.new-artifacts-description {
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: $dark_green_description_color;
+    padding-right: 16px;
+    margin-bottom: 20px;
+}
+
+.follow_reading {
+    position: absolute;
+    bottom: 16px;
+    font-family: Open Sans;
+    text-decoration: none;
+    color: $black_color;
+    font-weight: 700;
+}
+
+.follow_reading {
+    color: $black_color;
+}
+
+.follow_reading:active {
+    color: $green_active;
+}
+
+.new-artifacts__picture {
+    position: relative;
+    height: 493px;
+}
+
+.plant {
+    position: absolute;
+    top: 16px;
+}
+
+.plant1 {
+    left: 16px;
+}
+
+.plant2 {
+    left: 168px;
+}
+
+.plant3 {
+    left: 393px;
+}
+
+.plant4 {
+    top: 184px;
+    left: 16px;
+}
+
+.plant5 {
+    top: 184px;
+    left: 290px;
+}
+
+.plant6 {
+    top: 184px;
+    left: 490px;
+}
+
+.plant7 {
+    top: 184px;
+    left: 704px;
+}
+
+.figure {
+    position: absolute;
+}
+
+.figure4_2 {
+    top: 142px;
+    left: 16px;
+}
+
+.figure7_2 {
+    top: 16px;
+    left: 329px;
+}
+
+.figure2_7 {
+    top: 50px;
+    left: 525px;
+}
+
+.figure5_1 {
+    top: 371px;
+    left: 158px;
+}
+
+.figure9_1 {
+    top: 453px;
+    left: 401px;
+}
+
+.figure1_7 {
+    top: 184px;
+    left: 622px;
+}
+
+.figure2_3 {
+    top: 453px;
+    left: 758px;
+}
+
+.help {
+    background-image: url(/assets/image/help-bg.jpg);
+    background-size: cover;
+}
+
+.help-project__container {
+    color: $white_color;
+    position: relative;
+    min-height: 463px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  opacity: 0.7;
+  max-width: 1440px;
+}
+
+.help-project__title {
+    font-family: Cormorant BoldItalic;
+    font-size: 48px;
+    padding-top: 60px;
+    margin-bottom: 16px;
+}
+
+.help-project__description {
+    font-family: Open Sans;
+    font-size: 16px;
+    margin-bottom: 24px;
+    max-width: 825px;
+    line-height: 150%;
+}
+
+.help-project__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 183px;
+    margin-bottom: 60px;
+}
+
+.input_field {
+    max-width: 350px;
+    height: 45px;
+}
+
+.input_field:hover {
+    background-color: $grey;
+}
+
+.input_field::placeholder {
+    font-family: Open Sans;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.input_field:hover::placeholder {
+    color: $white_color;
+}
+
+.submit_button {
+    max-width: 145px;
+    height: 45px;
+    background-color: $light_green_color;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: $green_hover;
+}
+
+.submit_button:active {
+    background-color: $green_active;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
