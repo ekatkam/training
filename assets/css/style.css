@@ -493,4 +493,18 @@
 
 .submit_button:active {
   background-color: #688B05;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }/*# sourceMappingURL=style.css.map */
