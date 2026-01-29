@@ -370,10 +370,17 @@
 .embla__container {
   display: flex;
   touch-action: pan-y pinch-zoom;
+  gap: 20px;
 }
 
 .embla__slide {
-  flex: 0 0 100%;
+  flex: 0 0 calc((100% - 60px) / 4);
   min-width: 0;
+  box-sizing: border-box;
+}
+
+.embla__arrow {
+    background-color: $dark_green_color;
+    cursor: pointer;
 }
 

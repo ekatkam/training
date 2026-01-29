@@ -502,9 +502,15 @@
 .embla__container {
   display: flex;
   touch-action: pan-y pinch-zoom;
+  gap: 20px;
 }
 
 .embla__slide {
-  flex: 0 0 100%;
+  flex: 0 0 calc(25% - 15px);
   min-width: 0;
+}
+
+.embla__arrow {
+  background-color: #1D2F30;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
