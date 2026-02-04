@@ -28,6 +28,11 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1150px) {
+  .container {
+    padding-left: 15px;
+  }
+}
 .header {
   background: #1D2F30;
   background-size: cover;
@@ -506,8 +511,9 @@
 }
 
 .embla__slide {
-  flex: 0 0 calc(25% - 15px);
+  flex: 0 0 calc((100% - 60px) / 4);
   min-width: 0;
+  box-sizing: border-box;
 }
 
 .embla__arrow {
